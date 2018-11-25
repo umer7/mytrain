@@ -31,7 +31,7 @@ del_all_flags(tf.flags.FLAGS)
 # Parameters settings
 # Data loading params
 
-tf.flags.DEFINE_string("database_path", "data/", "Path for the dataset to be used.")
+tf.flags.DEFINE_string("database_path", "mytrain/data/", "Path for the dataset to be used.")
 
 # Model Hyperparameters
 tf.flags.DEFINE_integer("sequence_length", 1024, "Sequence Max Length (default: 1024)")
